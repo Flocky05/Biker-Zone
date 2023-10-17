@@ -1,5 +1,6 @@
 import { Carousel } from "@material-tailwind/react";
 import Bike from "../Bike/Bike";
+import FAQ from "../FAQ/FAQ";
 import HappyClients from "../Happy Clients/HappyClients";
 import LetestBike from "../Letest Bike/LetestBike";
 
@@ -47,6 +48,7 @@ const Home = () => {
     <Bike></Bike>
     <LetestBike></LetestBike>
     <HappyClients></HappyClients>
+    <FAQ></FAQ>
         </div>
     );
 };
