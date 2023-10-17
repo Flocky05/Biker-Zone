@@ -2,6 +2,7 @@ import img1 from "../../assets/images/others/user-1.png"
 import img2 from "../../assets/images/others/user-2.png"
 import img3 from "../../assets/images/others/user-3.png"
 import icons from "../../assets/images/icons/star-solid.svg"
+import icon2 from "../../assets/images/icons/star-half-stroke-solid.svg"
 
 const HappyClients = () => {
     return (
@@ -32,7 +33,7 @@ const HappyClients = () => {
                             <img className="w-6 lg:w-10" src={icons} alt="" />
                             <img className="w-6 lg:w-10" src={icons} alt="" />
                             <img className="w-6 lg:w-10" src={icons} alt="" />
-                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icon2} alt="" />
                         </div>
                         <p className="text-light-blue-300 text-center">Maly Jhon</p>
                         <p className="text-light-gray-300 text-center">Teacher</p>
@@ -47,7 +48,7 @@ const HappyClients = () => {
                             <img className="w-6 lg:w-10" src={icons} alt="" />
                             <img className="w-6 lg:w-10" src={icons} alt="" />
                             <img className="w-6 lg:w-10" src={icons} alt="" />
-                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icon2} alt="" />
                         </div>
                         <p className="text-light-blue-300 text-center">Regina Miles</p>
                         <p className="text-light-gray-300 text-center">Banker</p>
