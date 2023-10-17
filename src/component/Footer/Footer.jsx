@@ -2,8 +2,8 @@
 
 const Footer = () => {
     return (
-        <div>
-            <h2>This is footer section</h2>
+        <div className="bg-black p-32 text-center text-white">
+            <h2>This is footer section and Do not copy it</h2>
         </div>
     );
 };

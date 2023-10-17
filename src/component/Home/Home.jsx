@@ -1,5 +1,4 @@
 import { Carousel } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
