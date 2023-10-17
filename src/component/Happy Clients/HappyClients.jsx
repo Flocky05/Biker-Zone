@@ -7,17 +7,17 @@ const HappyClients = () => {
     return (
         <div>
             <h2 className="text-5xl text-center p-14">Happy <span className="text-orange-900"> Clients Says</span> </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-8 md:m-14 lg:m-20">
                 <div className="bg-gray-100 p-10 rounded-lg border shadow-lg">
                     <img src={img1} alt="" />
                     <div className="mt-3">
                         <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         <div className="flex justify-center mx-auto ">
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
                         </div>
                         <p className="text-light-blue-300 text-center">Delax Roy</p>
                         <p className="text-light-gray-300 text-center">Software Engineer</p>
@@ -28,11 +28,11 @@ const HappyClients = () => {
                     <div className="mt-3">
                         <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         <div className="flex justify-center mx-auto ">
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
                         </div>
                         <p className="text-light-blue-300 text-center">Maly Jhon</p>
                         <p className="text-light-gray-300 text-center">Teacher</p>
@@ -43,11 +43,11 @@ const HappyClients = () => {
                     <div className="mt-3">
                         <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         <div className="flex justify-center mx-auto ">
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
-                            <img className="w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
+                            <img className="w-6 lg:w-10" src={icons} alt="" />
                         </div>
                         <p className="text-light-blue-300 text-center">Regina Miles</p>
                         <p className="text-light-gray-300 text-center">Banker</p>
