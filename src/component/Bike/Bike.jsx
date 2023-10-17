@@ -2,7 +2,7 @@
 import img from "../../assets/images/slider/bike1.png"
 const Bike = () => {
     return (
-        <div className="bg-green-700 text-white grid grid-cols-2 items-center p-20 ">
+        <div className="bg-green-700 text-white grid grid-cols-1 lg:grid-cols-2 items-center p-20 ">
             <div>
                 <div className="text-3xl font-bold text-white">
                     <h2>Ride-on R15 V4</h2>
