@@ -5,7 +5,7 @@ import img4 from "../../assets/images/slider/bike4.png"
 
 const Shop = () => {
     return (
-        <div className="grid grid-cols-2 gap-20 m-10 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-10 ">
             <div className="bg-gray-200 p-12 border-2 rounded-md shadow-lg z-10">
                 <img src={img1} alt="" />
                 <div>
