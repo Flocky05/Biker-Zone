@@ -11,6 +11,7 @@ import Home from './component/Home/Home';
 import { ThemeProvider } from "@material-tailwind/react";
 import Shop from './component/Shop/Shop';
 import News from './component/News/News';
+import Contract from './component/Contract/Contract';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path:"/news",
         element:<News></News>
+      },
+      {
+        path:"/contract",
+        element:<Contract></Contract>
       },
       
     ]
