@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-5">
+    <div className="flex justify-between p-5 shadow-lg text-white bg-black">
         <div>
           <Link to="/" className="text-3xl font-bold">Biker Zone</Link>
         </div>
