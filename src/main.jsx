@@ -13,6 +13,7 @@ import Shop from './component/Shop/Shop';
 import News from './component/News/News';
 import Contract from './component/Contract/Contract';
 import Login from './component/Login/Login';
+import Register from './component/Register/Register';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element:<Login></Login>
+      },
+      {
+        path:"/register",
+        element:<Register></Register>
       },
       
     ]
